@@ -8,7 +8,8 @@ const App = () => {
                 <img src={logo} className="App-logo" alt="logo"/>
                 <div>
                     <h2>
-                        Only
+                        Promise
+                        <Mer/>
                         <Hex/>
                     </h2>
                 </div>
@@ -21,6 +22,14 @@ const Hex = () => {
         <div>
             <h1>Portfolio</h1>
         </div>
+    );
+};
+
+const Mer = () => {
+    return (
+        <p>
+            Tomorrow twenty lesson !
+        </p>
     );
 };
 
