@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header.jsx';
+import MyPromis from './MyPromis.jsx';
 
 const App = () => {
     return (
@@ -9,27 +11,12 @@ const App = () => {
                 <div>
                     <h2>
                         Promise
-                        <Mer/>
-                        <Hex/>
+                        <MyPromis/>
+                        <Header/>
                     </h2>
                 </div>
             </header>
         </div>
-    );
-};
-const Hex = () => {
-    return (
-        <div>
-            <h1>Portfolio</h1>
-        </div>
-    );
-};
-
-const Mer = () => {
-    return (
-        <p>
-            Tomorrow twenty lesson !
-        </p>
     );
 };
 
