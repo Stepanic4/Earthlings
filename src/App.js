@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Header from './Header.jsx';
-import MyPromis from './MyPromis.jsx';
+import Star from "./Star";
 
 const App = () => {
     return (
@@ -10,10 +9,9 @@ const App = () => {
                 <img src={logo} className="App-logo" alt="logo"/>
                 <div>
                     <h2>
-                        Promise
-                        <MyPromis/>
-                        <Header/>
+                        Earthlings
                     </h2>
+                    <Star/>
                 </div>
             </header>
         </div>
