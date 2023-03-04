@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-import Star from "./Star";
 
 const App = () => {
     return (
@@ -11,7 +10,7 @@ const App = () => {
                     <h2>
                         Earthlings
                     </h2>
-                    <Star/>
+                    <h1>Today</h1>
                 </div>
             </header>
         </div>
