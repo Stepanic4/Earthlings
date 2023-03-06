@@ -7,7 +7,7 @@ const Profile = () => {
         <div className={stl.content}>
             <img src={rustContent} className={stl.rust} alt="rust"/>
             <div className={stl.posts}>
-                My posts )))
+                <p className={stl.posts}>My posts )))</p>
                 <div className={stl.item}>
                     Post item 1
                 </div>

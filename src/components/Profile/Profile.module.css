@@ -6,3 +6,9 @@
 .rust {
     max-width: 500px;
 }
+.posts {
+    color: #61dafb;
+}
+.item {
+    color: #b53c00;
+}
