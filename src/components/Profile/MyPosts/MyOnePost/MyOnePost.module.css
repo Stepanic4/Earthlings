@@ -1,4 +1,5 @@
 .item img {
-      max-width: 70px;
-      object-fit: cover;
-  }
+    max-width: 70px;
+    object-fit: cover;
+    border-radius: 25px;
+}
