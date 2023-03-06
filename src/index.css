@@ -15,6 +15,10 @@ code {
     monospace;
 }
 
+li, a {
+  cursor: pointer;
+}
+
 li {
   list-style-type: none;
 }

@@ -12,3 +12,13 @@
 .item {
     color: #b53c00;
 }
+
+.item img {
+    max-width: 50px;
+    object-fit: cover;
+}
+
+textarea {
+    resize: none;
+    background-color: #cbcbcb;
+}
