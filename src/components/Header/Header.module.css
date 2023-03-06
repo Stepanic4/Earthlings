@@ -1,0 +1,23 @@
+.header {
+    grid-area: h;
+    background-color: #034116;
+}
+
+.ArtLogo {
+    max-height: 20vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .ArtLogo {
+        animation: ArtLogo-spin infinite 25s linear;
+    }
+}
+@keyframes ArtLogo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

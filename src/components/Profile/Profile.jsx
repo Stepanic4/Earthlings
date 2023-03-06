@@ -1,24 +1,11 @@
 import React from 'react';
-import rustContent from "../../rustContent.jpeg";
-import './Profile.css';
+import stl from './Profile.module.css';
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className="content">
-            <img src={rustContent} className="rust" alt="rust"/>
-            <div className="my-posts">
-                My posts )))
-                <div className="item">
-                    Post item 1
-                </div>
-                <div className="item">
-                    Post item 2
-                </div>
-                <div className="item">
-                    Post item 3
-                </div>
-
-            </div>
+        <div className={stl.content}>
+            <MyPosts/>
         </div>
     );
 };

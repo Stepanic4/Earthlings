@@ -3,5 +3,8 @@
     background-color: #013e41;
 }
 .item {
-    color: #a16100;
+    color: #e38e00;
+}
+.item .active {
+    color: #d0ff00;
 }
