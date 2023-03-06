@@ -2,3 +2,7 @@
     grid-area: c;
     background-color: #413d00;
 }
+
+.rust {
+    max-width: 500px;
+}
