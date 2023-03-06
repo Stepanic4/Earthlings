@@ -2,23 +2,3 @@
     grid-area: c;
     background-color: #413d00;
 }
-
-.rust {
-    max-width: 500px;
-}
-.posts {
-    color: #61dafb;
-}
-.item {
-    color: #b53c00;
-}
-
-.item img {
-    max-width: 50px;
-    object-fit: cover;
-}
-
-textarea {
-    resize: none;
-    background-color: #cbcbcb;
-}
