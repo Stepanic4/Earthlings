@@ -3,8 +3,13 @@
     background-color: #034116;
 }
 
+.outer {
+    display: flex;
+    align-items: center;
+}
+
 .ArtLogo {
-    max-height: 20vmin;
+    max-height: 5vmin;
     pointer-events: none;
 }
 

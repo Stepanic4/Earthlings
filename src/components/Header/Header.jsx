@@ -5,11 +5,11 @@ import stl from './Header.module.css';
 const Header = () => {
     return (
         <header className={stl.header}>
+            <div className={stl.outer}>
             <img src={logo} className={stl.ArtLogo} alt="logo"/>
-            <div>
-                <h4>
+                <p>
                     Earthlings
-                </h4>
+                </p>
             </div>
         </header>
     );
