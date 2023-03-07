@@ -1,5 +1,17 @@
+.item {
+    padding: 10px;
+}
+
 .item img {
     max-width: 70px;
     object-fit: cover;
     border-radius: 25px;
+}
+
+.likePost {
+    display: flex;
+}
+.like {
+    padding-left: 10px;
+    color: #c10000;
 }
