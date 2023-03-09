@@ -2,3 +2,9 @@ footer {
     grid-area: f;
     background-color: #7892c2;
 }
+
+.oneFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

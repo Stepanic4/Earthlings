@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer>
             <div className={stl.oneFooter}>
-                Footer
+                © 2023 Earthlings.
             </div>
         </footer>
     );
