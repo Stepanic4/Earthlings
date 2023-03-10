@@ -24,9 +24,9 @@ const MyPosts = () => {
                     <button className={stl.myButton}>Add post</button>
                 </div>
             </div>
-            <MyOnePost message='Hello my friend' like='2'/>
-            <MyOnePost message='What are you doing ?' like='4'/>
-            <MyOnePost message='Fine, working and learning ?' like='7'/>
+            <MyOnePost message='Hello my friend' likesCount='2'/>
+            <MyOnePost message='What are you doing ?' likesCount='4'/>
+            <MyOnePost message='Fine, working and learning ?' likesCount='7'/>
         </div>
     );
 };

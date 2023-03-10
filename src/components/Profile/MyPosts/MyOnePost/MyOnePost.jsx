@@ -10,7 +10,7 @@ const MyOnePost = (props) => {
             <div className={stl.likePost}>
                 {props.message}
                 <div className={stl.like}>
-                    Like {props.like}
+                    Like {props.likesCount}
                 </div>
             </div>
         </div>
