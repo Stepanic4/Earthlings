@@ -8,6 +8,7 @@ const Navbar = () => {
               <li>Profile</li>
               <li>Friends</li>
               <li>Music</li>
+              <li>Photo</li>
           </ul>
       </nav>
   );
