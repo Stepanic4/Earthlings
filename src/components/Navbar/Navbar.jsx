@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className={stl.nav}>
           <ul className={`${stl.item} ${stl.active}`}>
               <li>Profile</li>
-              <li>Friends</li>
+              <li>Friends</li>npm star
               <li>Music</li>
               <li>Photo</li>
           </ul>
