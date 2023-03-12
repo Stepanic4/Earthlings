@@ -7,6 +7,9 @@ const Footer = () => {
             <div className={stl.oneFooter}>
                 © 2023 Earthlings.
             </div>
+            <div>
+                My social auto
+            </div>
         </footer>
     );
 };
