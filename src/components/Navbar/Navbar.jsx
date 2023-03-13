@@ -4,12 +4,19 @@ import stl from './Navbar.module.css';
 const Navbar = () => {
   return (
       <nav className={stl.nav}>
-          <ul className={`${stl.item} ${stl.active}`}>
-              <li>Profile</li>
-              <li>Friends</li>npm star
-              <li>Music</li>
-              <li>Photo</li>
-          </ul>
+              <div className={`${stl.item} ${stl.active}`}>
+                  <a href="/Profile">Profile</a>
+              </div>
+              <div className={stl.item}>
+                  <a href="/Friends">Friends</a>
+              </div>
+              <div className={stl.item}>
+                  <a href="/Music">Music</a>
+              </div>
+              <div className={stl.item}>
+                  <a href="/Photo">Photo</a>
+              </div>
+
       </nav>
   );
 };
