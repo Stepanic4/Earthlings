@@ -2,9 +2,13 @@
     grid-area: n;
     background-color: #013e41;
 }
-.item {
+.item a {
     color: #e38e00;
+    text-decoration: none;
 }
-.item .active {
-    color: #d0ff00;
+.item a:hover {
+    color: white;
+}
+.item a.active {
+    color: red;
 }
