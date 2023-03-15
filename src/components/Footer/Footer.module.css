@@ -1,11 +1,9 @@
 footer {
     grid-area: f;
     background-color: #7892c2;
+    padding: 10px;
 }
-
 .oneFooter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 2fr 10fr;
 }

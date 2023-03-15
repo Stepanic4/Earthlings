@@ -1,6 +1,7 @@
 .nav {
     grid-area: n;
     background-color: #013e41;
+    padding: 10px;
 }
 .item a {
     color: #e38e00;

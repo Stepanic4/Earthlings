@@ -3,8 +3,8 @@ import stl from './Footer.module.css';
 
 const Footer = () => {
     return (
-        <footer>
-            <div className={stl.oneFooter}>
+        <footer className={stl.oneFooter}>
+            <div>
                 © 2023 Earthlings.
             </div>
             <div>
