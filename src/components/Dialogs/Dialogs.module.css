@@ -9,7 +9,7 @@
     color: red;
 }
 .dialog {
-
+    cursor: pointer;
 }
 .messages {
     padding: 10px;
