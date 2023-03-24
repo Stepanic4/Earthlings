@@ -8,7 +8,7 @@ const Footer = () => {
                 © 2023 Earthlings.
             </div>
             <div>
-                My social auto
+                My social auto example 
             </div>
         </footer>
     );
