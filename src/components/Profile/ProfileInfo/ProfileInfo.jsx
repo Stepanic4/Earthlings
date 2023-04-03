@@ -6,7 +6,7 @@ const ProfileInfo = (props) => {
         <div className={stl.item}>
             <img className={stl.postsAva}
                  src="https://a.d-cd.net/tQAAAgGZteA-100.jpg" alt="avatar"/>
-            + Mercedes CLK 200
+            + Mercedes CLK 200 CGI
         </div>
     )
 };
