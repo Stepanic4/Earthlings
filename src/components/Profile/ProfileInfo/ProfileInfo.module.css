@@ -1,0 +1,10 @@
+.item {
+    padding: 10px;
+    color: #b53c00;
+}
+
+.postsAva {
+    max-width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}

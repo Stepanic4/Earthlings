@@ -1,18 +1,9 @@
-.rust {
-    max-width: 500px;
-}
+
 .posts {
+    padding: 10px;
     color: #61dafb;
 }
-.item {
-    color: #b53c00;
-}
 
-.postsAva {
-    max-width: 50px;
-    border-radius: 50px;
-    object-fit: cover;
-}
 .textAreaPost {
     display: block;
     max-width: 15em;

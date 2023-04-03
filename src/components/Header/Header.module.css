@@ -6,11 +6,15 @@
 .outer {
     display: flex;
     align-items: center;
+    padding-left: 5px;
 }
 
 .ArtLogo {
     max-height: 5vmin;
     pointer-events: none;
+}
+.outer p {
+    margin-left: 5px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
