@@ -11,6 +11,13 @@
 .dialog {
     cursor: pointer;
 }
+.dialogs a {
+    color: #c8be8b;
+    text-decoration: none;
+}
+.dialogs a:active {
+    color: red;
+}
 .messages {
     padding: 10px;
 }
