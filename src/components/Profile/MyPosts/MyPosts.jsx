@@ -2,7 +2,7 @@ import React from 'react';
 import stl from './MyPosts.module.css';
 import MyOnePost from '../MyPosts/MyOnePost/MyOnePost';
 
-const MyPosts = () => {
+const MyPosts = (props) => {
 
     let posts = [
         {id: 1, message: 'Hello my friend', likesCount: 2},
@@ -15,12 +15,10 @@ const MyPosts = () => {
 
     return (
         <div className={stl.posts}>
-            <div>
-                <div className={stl.textAreaPost}>
+            <div className={stl.textAreaPost}>
                     <textarea name="post" id="areaPost" cols="30" rows="4" placeholder='Please enter your post...'>
                     </textarea>
-                    <button className={stl.myButton}>Add post</button>
-                </div>
+                <button className={stl.myButton}>Add post</button>
             </div>
             <div>
                 <h4>My posts )))</h4>
