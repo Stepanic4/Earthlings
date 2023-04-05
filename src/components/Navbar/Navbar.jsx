@@ -15,10 +15,10 @@ const Navbar = () => {
                 <NavLink to="News">News</NavLink>
             </div>
             <div className={stl.item}>
-                <NavLink to="/Music">Music</NavLink>
+                <NavLink to="Music">Music</NavLink>
             </div>
             <div className={stl.item}>
-                <NavLink to="/Settings">Settings</NavLink>
+                <NavLink to="Settings">Settings</NavLink>
             </div>
 
         </nav>
