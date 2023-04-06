@@ -6,8 +6,8 @@ import Profile from './components/Profile/Profile';
 import Footer from "./components/Footer/Footer";
 import Dialogs from "./components/Dialogs/Dialogs";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
+const App = (props) => {
 
-const App = () => {
     return (
         <BrowserRouter>
             <div className="App-wrapper">

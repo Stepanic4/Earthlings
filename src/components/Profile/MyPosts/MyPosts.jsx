@@ -4,14 +4,7 @@ import MyOnePost from '../MyPosts/MyOnePost/MyOnePost';
 
 const MyPosts = (props) => {
 
-    let posts = [
-        {id: 1, message: 'Hello my friend', likesCount: 2},
-        {id: 2, message: 'What are you doing ?', likesCount: 5},
-        {id: 3, message: 'Fine, working and learning ?', likesCount: 8},
-        {id: 4, message: 'This is your car ?', likesCount: 14}
-    ];
-
-    let postsElements = posts.map(p => <MyOnePost message={p.message} likesCount={p.likesCount}/>);
+    let postsElements = props.posts.map(p => <MyOnePost message={p.message} likesCount={p.likesCount}/>);
 
     return (
         <div className={stl.posts}>
