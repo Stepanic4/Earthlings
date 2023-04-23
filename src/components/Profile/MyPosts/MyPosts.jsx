@@ -18,7 +18,9 @@ const MyPosts = (props) => {
             <div className={stl.textAreaPost}>
                     <textarea ref={newPostElement} name="post" cols="30" rows="4" placeholder='Please enter your post...'>
                     </textarea>
-                <button className={stl.myButton} onClick={ addPost }>Add post</button>
+                <button className={stl.myButton} onClick={ addPost }>
+                    Add post
+                </button>
             </div>
             <div>
                 <h4>My posts )))</h4>
