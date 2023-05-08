@@ -29,8 +29,7 @@ let state = {
             {id: 4, message: 'My name is Petr'},
             {id: 5, message: 'If you want?'},
             {id: 6, message: 'Little car'},
-            {id: 7, message: 'Friends is happy'},
-            {id: 8, message: 'Happy day'}
+            {id: 7, message: 'Friends is happy'}
         ]
     },
 };
