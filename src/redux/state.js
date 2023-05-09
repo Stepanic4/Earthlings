@@ -19,8 +19,7 @@ let state = {
             {id: 3, name: 'Arnold'},
             {id: 4, name: 'Michal'},
             {id: 5, name: 'Sara'},
-            {id: 6, name: 'Ura'},
-            {id: 7, name: 'Dasha'}
+            {id: 6, name: 'Ura'}
         ],
         messages: [
             {id: 1, message: 'Hello my baby'},
