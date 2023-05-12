@@ -1,11 +1,12 @@
-.item {
+.avatar {
     padding: 10px;
 }
 
-.item img {
-    max-width: 70px;
+.avatar img {
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    border-radius: 25px;
+    border-radius: 50%;
 }
 
 .likePost {
