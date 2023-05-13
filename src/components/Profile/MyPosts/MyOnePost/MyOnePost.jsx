@@ -1,5 +1,7 @@
 import React from 'react';
 import stl from './MyOnePost.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSmileBeam } from "@fortawesome/free-solid-svg-icons";
 
 const MyOnePost = (props) => {
     return (
@@ -12,6 +14,7 @@ const MyOnePost = (props) => {
                 {props.message}
                 <div className={stl.like}>
                     Like {props.likesCount}
+                    <FontAwesomeIcon className={stl.icon} icon={faSmileBeam} />
                 </div>
             </div>
         </div>

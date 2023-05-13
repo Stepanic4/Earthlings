@@ -9,6 +9,11 @@
     border-radius: 50%;
 }
 
+.icon {
+    margin: 0 10px;
+    color: yellow;
+}
+
 .likePost {
     display: flex;
 }
