@@ -9,7 +9,8 @@ let state = {
             {id: 3, message: 'Fine, working and learning )) ?', likesCount: 38},
             {id: 4, message: 'This is your car ?', likesCount: 14},
             {id: 5, message: 'No way :) ((!!!' , likesCount: 77}
-        ]
+        ],
+        newPostText: 'it-socialAuto'
     },
 
     dialogsPage: {
@@ -33,13 +34,19 @@ let state = {
     },
 };
 
-export let addPost = (postMessage) => {
+export let addPost = () => {
     let newPost = {
       id: 6,
-      message: postMessage,
+      message: state.profilePage.newPostText,
       likesCount: 0
     };
     state.profilePage.posts.push(newPost);
+    state.profilePage.newPostText = '';
+    rerenderEntireTree(state);
+};
+
+export let updateNewPostText = (newText) => {
+    state.profilePage.newPostText = newText;
     rerenderEntireTree(state);
 };
 
