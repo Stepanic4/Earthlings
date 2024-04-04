@@ -10,7 +10,7 @@ let state = {
             {id: 4, message: 'This is your car ?', likesCount: 14},
             {id: 5, message: 'No way :) ((!!!' , likesCount: 77}
         ],
-        newPostText: 'it-socialAuto'
+        newPostText: 'it-socialAuto my state.js'
     },
 
     dialogsPage: {
