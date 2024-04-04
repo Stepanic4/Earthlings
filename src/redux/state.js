@@ -20,7 +20,8 @@ let state = {
             {id: 3, name: 'Arnold'},
             {id: 4, name: 'Michal'},
             {id: 5, name: 'Sara'},
-            {id: 6, name: 'Ura'}
+            {id: 6, name: 'Ura'},
+            {id: 7, name: 'Jan'}
         ],
         messages: [
             {id: 1, message: 'Hello my baby'},
@@ -30,7 +31,8 @@ let state = {
             {id: 5, message: 'If you want?'},
             {id: 6, message: 'Little car'},
             {id: 7, message: 'Friends is happy'}
-        ]
+        ],
+        newMessageTx: 'Hello friends in my dialogs'
     },
 };
 
@@ -47,6 +49,21 @@ export let addPost = () => {
 
 export let updateNewPostText = (newText) => {
     state.profilePage.newPostText = newText;
+    rerenderEntireTree(state);
+};
+
+export let addMessage = () => {
+    let newMessage = {
+        id: 5,
+        message: state.dialogsPage.newMessageTx,
+    };
+    state.dialogsPage.messages.push(newMessage);
+    state.dialogsPage.newMessageTx = '';
+    rerenderEntireTree(state);
+};
+
+export let updateNewMessageText = (newText) => {
+    state.dialogsPage.newMessageTx = newText;
     rerenderEntireTree(state);
 };
 
