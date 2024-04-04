@@ -9,7 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 export let rerenderEntireTree = (state) => {
     root.render(
         <React.StrictMode>
-            <App state={state} addPost={addPost} updateNewPostText={updateNewPostText}/>
+            <App state={state} addPost={addPost}
+                 updateNewPostText={updateNewPostText}/>
         </React.StrictMode>
     );
 };
