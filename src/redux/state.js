@@ -8,7 +8,7 @@ let state = {
             {id: 2, message: 'What are you doing ?', likesCount: 3},
             {id: 3, message: 'Fine, working and learning )) ?', likesCount: 38},
             {id: 4, message: 'This is your car ?', likesCount: 14},
-            {id: 5, message: 'No way :) ((!!!' , likesCount: 77}
+            {id: 5, message: 'No way :) ((!!!' , likesCount: 777}
         ],
         newPostText: 'it-socialAuto my state.js'
     },
