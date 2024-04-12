@@ -33,12 +33,17 @@ let store = {
             newMessageTx: 'Hello friends in my dialogs'
         },
     },
-    getState() {
-        return this._state;
-    },
     _callSubscriber() {
         console.log('State is changed');
     },
+
+    getState() {
+        return this._state;
+    },
+    subscribe (observer) {
+        this._callSubscriber = observer;
+    },
+
     addPost () {
         let newPost = {
             id: 6,
@@ -66,9 +71,7 @@ let store = {
         this._state.dialogsPage.newMessageTx = newText;
         this._callSubscriber(this._state);
     },
-    subscribe (observer) {
-    this._callSubscriber = observer;
-},
+
 };
 
 export default store;
