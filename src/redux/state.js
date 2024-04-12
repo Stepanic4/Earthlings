@@ -44,20 +44,7 @@ let store = {
         this._callSubscriber = observer;
     },
 
-    addPost () {
-        let newPost = {
-            id: 6,
-            message: this._state.profilePage.newPostText,
-            likesCount: 0
-        };
-        this._state.profilePage.posts.push(newPost);
-        this._state.profilePage.newPostText = '';
-        this._callSubscriber(this._state);
-    },
-    updateNewPostText (newText) {
-        this._state.profilePage.newPostText = newText;
-        this._callSubscriber(this._state);
-    },
+
     addMessage () {
         let newMessage = {
             id: 5,
@@ -70,6 +57,22 @@ let store = {
     updateNewMessageText (newText) {
         this._state.dialogsPage.newMessageTx = newText;
         this._callSubscriber(this._state);
+    },
+
+    dispatch (action) {
+        if (action.type === 'ADD-POST') {
+            let newPost = {
+                id: 6,
+                message: this._state.profilePage.newPostText,
+                likesCount: 0
+            };
+            this._state.profilePage.posts.push(newPost);
+            this._state.profilePage.newPostText = '';
+            this._callSubscriber(this._state);
+        } else if (action.type === 'UPDATE-NEW-POST-TEXT') {
+            this._state.profilePage.newPostText = action.newText;
+            this._callSubscriber(this._state);
+        }
     },
 
 };

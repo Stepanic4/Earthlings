@@ -16,16 +16,14 @@ const App = (props) => {
                 <div className='app-wrapper-content'>
                     <p>Home page This is App.js</p>
                     <Routes>
-                        <Route exact path='/dialogs'
-                               element={<Dialogs
-                                   dialogsPageState={props.state.dialogsPage}
-                                   addMessage={props.addMessage}
-                                   updateNewMessageText={props.updateNewMessageText}/>}/>
                         <Route exact path='/profile'
                                element={<Profile
                                    profilePage={props.state.profilePage}
-                                   addPost={props.addPost}
-                                   updateNewPostText={props.updateNewPostText}/>}/>
+                                   dispatch={props.dispatch}/>}/>
+                        <Route exact path='/dialogs'
+                               element={<Dialogs
+                                   dialogsPageState={props.state.dialogsPage}
+                                   dispatch={props.dispatch}/>}/>
                     </Routes>
                 </div>
                 <Footer/>
