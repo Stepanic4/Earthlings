@@ -32,7 +32,7 @@ const Dialogs = (props) => {
             <div className={stl.textAreaMessage}>
                 <textarea onChange={onMessageChange}
                           ref={newMessageElement}
-                          value={props.newMessageTx}
+                          value={props.newMessageBody}
                           name="message" cols="30"
                           rows="4"
                           placeholder="Please enter your message.."/>
