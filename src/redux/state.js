@@ -32,7 +32,7 @@ let store = {
                 {id: 4, message: 'My name is Petr'},
                 {id: 5, message: 'If you want?'},
                 {id: 6, message: 'Little car it bad'},
-                {id: 7, message: 'Friends is happy'}
+                {id: 7, message: 'Friends is happy day'}
             ],
             newMessageBody: ""
         },
