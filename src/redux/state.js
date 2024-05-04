@@ -29,7 +29,7 @@ let store = {
                 {id: 1, message: 'Hello my baby'},
                 {id: 2, message: 'How are you ?'},
                 {id: 3, message: 'Everything is ok'},
-                {id: 4, message: 'My name is Pavel 2'},
+                {id: 4, message: 'My name is Pavel 24'},
                 {id: 5, message: 'If you want?'},
                 {id: 6, message: 'Little car it bad'},
                 {id: 7, message: 'Friends is happy'}
