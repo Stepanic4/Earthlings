@@ -13,7 +13,7 @@ let store = {
                 {id: 4, message: 'This is your car ?', likesCount: 48},
                 {id: 5, message: 'No way :) ((!!!' , likesCount: 777}
             ],
-            newPostText: 'it-socialAuto my state.js'
+            newPostText: ''
         },
         dialogsPage: {
             dialogs: [
@@ -34,7 +34,7 @@ let store = {
                 {id: 6, message: 'Little car it bad'},
                 {id: 7, message: 'Friends is happy'}
             ],
-            newMessageBody: ""
+            newMessageBody: ''
         },
     },
     _callSubscriber() {
