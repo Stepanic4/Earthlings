@@ -9,7 +9,7 @@ let store = {
             posts: [
                 {id: 1, message: 'Hello my friend ))', likesCount: 272},
                 {id: 2, message: 'What are you doing ?', likesCount: 843},
-                {id: 3, message: 'Fine, working and learning )) ?', likesCount: 358},
+                {id: 3, message: 'Fine, working and learning )) ?', likesCount: 38},
                 {id: 4, message: 'This is your car ?', likesCount: 488},
                 {id: 5, message: 'No way :) ((!!!' , likesCount: 777}
             ],
