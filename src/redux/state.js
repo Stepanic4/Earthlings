@@ -7,7 +7,7 @@ let store = {
     _state: {
         profilePage: {
             posts: [
-                {id: 1, message: 'Hello my friend ))', likesCount: 272},
+                {id: 1, message: 'Hello my friend ))', likesCount: 22},
                 {id: 2, message: 'What are you doing ?', likesCount: 843},
                 {id: 3, message: 'Fine, working and learning )) ?', likesCount: 38},
                 {id: 4, message: 'This is your car ?', likesCount: 488},
