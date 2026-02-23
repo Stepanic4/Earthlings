@@ -14,7 +14,7 @@ const App = (props) => {
             <Navbar/>
             <div className='app-wrapper-content'>
                 <p>Home page This is App.js</p>
-                <Routes>
+                 <Routes>
                     <Route exact path='/profile'
                            element={<Profile
                                profilePage={props.state.profilePage}
